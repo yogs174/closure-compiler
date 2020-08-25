@@ -1,4 +1,4 @@
-require File.join(File.dirname(__FILE__), 'lib', 'closure-compiler')
+require_relative 'lib/closure-compiler'
 
 Gem::Specification.new do |s|
   s.name      = 'closure-compiler'
